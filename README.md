@@ -1,9 +1,7 @@
-Samuel Hwang Personal Website
+Samuel Hwang's Personal Website
 ==============
 My website idk
-
 <h1> Features </h1>
-<hr>
 - Resume
-- Projects 
-- Idk what else 
+- Projects
+- Idk what else
