@@ -3,11 +3,40 @@ head {
 }
 
 body {
-  background-color: gray;
+  margin: 0 auto;
+  max-width: 50em;
+  background-image: url(macbook_test.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
 h1 {
-  font-family: 'Cinzel', serif;
-  font-size: 50px;
+  color: #cacacc;
+  font-family: 'Inconsolata', monospace;
+  font-size: 30px;
   text-align: center;
+  margin: 1.5em 0 0 0;
+}
+
+div {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-family: 'Source Code Pro', monospace;
+  color: #cacacc;
+}
+
+.links {
+    margin: 0.5em 0 1.5em 0
+    text-align: center;
+}
+
+.links a {
+  font-family: 'Source Code Pro', monospace;
+  color: #cacacc;
+  margin: auto 2em auto 0
 }
