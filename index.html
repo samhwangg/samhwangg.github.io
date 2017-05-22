@@ -1,24 +1,81 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <br>
-    <br>
-    <br>
-    <br>
     <title>Samuel Hwang</title>
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
-  </head>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
+    <style>
+
+    body, html {
+        height: 100%;
+        margin: 0;
+    }
+
+    .bg {
+        /* The image used */
+        background-image: url("images/iceland.jpg");
+
+        /* Full height */
+        height: 100%;
+
+        /* Center and scale the image nicely */
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .titlebox {
+      position: relative;
+    }
+    .titlebox .inner_box{
+      position:absolute;
+      background:rgba(255,255,255,0.5);
+      top:10%;
+      left:50%;
+      transform:translate(-50%,-50%);
+      padding:20px;
+      text-align:center;
+    }
+    .titlebox .inner_box h1{
+      font-family: 'Playfair Display', serif;
+      font-size: 72px;
+      margin-top: 0px;
+      color:#000;
+    }
+
+    .titlebox .inner_box h3{
+      font-family: 'Raleway', sans-serif;
+      color:#000;
+    }
+
+/*
+    .titlebox .inner_box h1 {
+      position: absolute;
+      background: rgb(0, 0, 0);
+      background: rgba(255, 255, 255, 0.3);
+      padding: 20px;
+    }
+    */
+
+    </style>
   <body>
-    <h1>Samuel Hwang</h1>
-    <div class="links">
-      <a href="Hwang_Samuel_Resume.pdf">Resume</a>
-      <a href="https://github.com/samhwangg">GitHub</a>
-      <a href="https://www.linkedin.com/in/samuelhwang726/">LinkedIn</a>
+    <div class="titlebox bg">
+        <div class="inner_box">
+          <h1>Samuel Hwang</h1>
+          <h3>Computer Science Major at UC Riverside</h3>
+        </div>
     </div>
-  <p>Computer Science Major at UC Riverside.</p>
-  <br>
-  <p>pls hire me.</p>
+    <!--
+      <div class="container">
+          <ul id="contact">
+          <a href="mailto:samuel.hwang726@gmail.com" target="_top"><img src="images/email.png" alt="Email"/></a>
+          <a href="Hwang_Samuel_Resume.pdf"><img src="images/resume.png" alt="Resume"/></a>
+          <a href="https://github.com/samhwangg"><img src="images/github.png" alt="GitHub"/></a>
+          <a href="https://www.linkedin.com/in/samuelhwang726/"><img src="images/linkedin.png" alt="LinkedIn"/></a>
+        </ul>
+      </div>
+    -->
+
   </body>
 </html>
