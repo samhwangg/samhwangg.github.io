@@ -1,7 +1,9 @@
 Samuel Hwang's Personal Website
 ==============
-My website idk
-<h1> Features </h1>
-- Resume
-- Projects
-- Idk what else
+Domain http://samuelhwang.com redirects to this repo: http://samhwangg.github.io
+
+<img src=s/images/website_screenshot.jpg width=700/>
+
+This is my personal website. It's a work in progress.
+
+Thanks for carrying me, Bootstrap.
