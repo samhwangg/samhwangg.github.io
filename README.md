@@ -1,6 +1,6 @@
 Samuel Hwang's Personal Website
 ==============
-This repo redirects to [samuelhwang.com](samuelhwang.com)
+This repo redirects to http://samuelhwang.com
 
 ![Website Screenshot](/images/website_screenshot.jpg?raw=true "Website Screenshot")
 
