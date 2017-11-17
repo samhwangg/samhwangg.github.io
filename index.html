@@ -19,7 +19,7 @@
 
     .bg {
         /* The image used */
-        background-image: url("images/iceland.jpg");
+        background-image: linear-gradient(-20deg,#5569A8 0,#B0D0E9 100%);
 
         /* Full height */
         height: 100%;
@@ -28,7 +28,6 @@
 
         /* Center and scale the image nicely */
         background-position: left;
-        background-repeat: no-repeat;
         background-size: cover;
 
     }
@@ -41,7 +40,7 @@
       background:rgba(255,255,255,0.6);
       top:10%;
       left:50%;
-      transform:translate(-50%,-50%);
+      transform:translate(-50%,10%);
       padding:10px;
       text-align:center;
     }
@@ -58,8 +57,24 @@
       color:#000;
     }
 
-    figcaption {
-      color: gray;
+    h2{
+      color: rgba(255,250,250,1);
+    }
+
+    p{
+      color: rgba(255,250,250,1);
+    } 
+
+    figcaption{
+      color: rgba(255,250,250,1);
+    }
+
+    blockquote{
+      color: rgba(255,250,250,1);
+    }
+
+    cite{
+      color: rgba(255,250,250,1);
     }
 
     .infolist {
@@ -68,18 +83,29 @@
       margin: 0px;
 
     }
+    
+    .lead{
+      font-size: 140%;
+    }
 
     </style>
-  <body>
-      <div class="titlebox bg">
+  <body class="bg">
+      <div class="titlebox">
           <div class="inner_box">
             <!--Look Into background-blend-mode-->
             <h1>Samuel Hwang</h1>
             <h3>Computer Science Major at UC Riverside</h3>
           </div>
       </div>
-    <figcaption>Picture taken in Dj&uacutepal&oacutenssandur, Iceland</figcaption>
 
+      <br/ >
+      <br/ >
+      <br/ >
+      <br/ >
+      <br/ >
+      <br/ >
+      <br/ >
+      <br/ >
     <div class="container maxWidth">
       <h2 class="text-center">Hello there!</h2>
       <p class="lead">
@@ -90,8 +116,7 @@
 
       <h2 class="text-center">What am I up to right now?</h2>
       <p class="lead">
-        I am a Software Technician at Applied Medical located in Rancho Santa Margarita, California.
-        I am assisting the Technology and Development Department to build the Voyant II, a intelligent laparoscopic surgical tool.
+        I am a Software Technician at Applied Medical. I am also a Research Software Developer for UCR's Department of Psychology.
         <br />
         <br />
         I am always looking for new ways to better myself as a disciple of Computer Science.
@@ -103,18 +128,17 @@
 
       <div class="container text-center">
           <ul class="list-inline">
-            <li><a href="mailto:samuel.hwang726@gmail.com" target="_top"><img src="images/email.png" alt="Email" class="infolist" data-toggle="popover" data-content="Send me an email!"/></a></li>
-            <li><a href="Hwang_Samuel_Resume.pdf"><img src="images/resume.png" alt="Resume" class="infolist" data-toggle="popover" data-content="Take a look at my r&eacute;sum&eacute;!"/></a></li>
-            <li><a href="https://github.com/samhwangg"><img src="images/github.png" alt="GitHub" class="infolist" data-toggle="popover" data-content="Check out my GitHub!"/></a></li>
-            <li><a href="https://www.linkedin.com/in/samuelhwang726/"><img src="images/linkedin.png" alt="LinkedIn" class="infolist" data-toggle="popover" data-content="Connect with me on LinkedIn!"/></a></li>
+            <li><a href="mailto:samuel.hwang726@gmail.com" target="_top"><img src="images/email2.png" alt="Email" class="infolist" data-toggle="popover" data-content="Send me an email!"/></a></li>
+            <li><a href="Hwang_Samuel_Resume.pdf"><img src="images/resume2.png" alt="Resume" class="infolist" data-toggle="popover" data-content="Take a look at my r&eacute;sum&eacute;!"/></a></li>
+            <li><a href="https://github.com/samhwangg"><img src="images/github2.png" alt="GitHub" class="infolist" data-toggle="popover" data-content="Check out my GitHub!"/></a></li>
+            <li><a href="https://www.linkedin.com/in/samuelhwang726/"><img src="images/linkedin2.png" alt="LinkedIn" class="infolist" data-toggle="popover" data-content="Connect with me on LinkedIn!"/></a></li>
           </ul>
       </div>
       <div class="clearfix"></div>
-      <hr />
       <blockquote class="text-center">
         Stay hungry. Stay foolish.
         <footer>
-          <cite title="Steve Jobs Quote">Steve Jobs</cite>
+          <cite class="text-center">Steve Jobs</cite>
         </footer>
       </blockquote>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
